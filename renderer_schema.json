@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.1",
+  "renderers": {
+    "keyboard": {
+      "required": ["notes"],
+      "optional": ["labels", "octaves", "title"]
+    },
+    "fretboard": {
+      "required": ["root", "notes"],
+      "optional": ["labels", "frets", "tuning", "title"]
+    },
+    "interval_map": {
+      "required": ["root", "targets"],
+      "optional": ["labels", "title"]
+    },
+    "bloch_sphere": {
+      "required": ["theta", "phi"],
+      "optional": ["title"]
+    },
+    "state_graph": {
+      "required": ["nodes", "edges"],
+      "optional": ["title"]
+    },
+    "function_plot": {
+      "required": ["x", "y"],
+      "optional": ["xlabel", "ylabel", "title"]
+    }
+  }
+}
