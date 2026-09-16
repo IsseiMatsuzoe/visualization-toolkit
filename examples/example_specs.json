@@ -1,0 +1,23 @@
+{
+  "d_dorian_fretboard": {
+    "type": "fretboard",
+    "root": "D",
+    "notes": ["D", "E", "F", "G", "A", "B", "C"],
+    "labels": ["1", "2", "b3", "4", "5", "6", "b7"],
+    "frets": 12,
+    "title": "D Dorian — guitar fretboard"
+  },
+  "c_minor_keyboard": {
+    "type": "keyboard",
+    "notes": ["C", "Eb", "G"],
+    "labels": ["1", "b3", "5"],
+    "title": "C minor triad — keyboard"
+  },
+  "c_intervals": {
+    "type": "interval_map",
+    "root": "C",
+    "targets": ["Eb", "F", "G", "Bb"],
+    "labels": ["b3", "4", "5", "b7"],
+    "title": "Intervals from C"
+  }
+}
