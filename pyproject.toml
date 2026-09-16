@@ -1,6 +1,6 @@
 [project]
-name = "visual-teaching-toolkit"
-version = "0.1.0"
+name = "visualization-toolkit"
+version = "0.3.0"
 description = "Deterministic visual renderers for visual-first teaching"
 requires-python = ">=3.10"
 dependencies = ["matplotlib>=3.8", "numpy>=1.26"]
